@@ -1,10 +1,10 @@
-# Cadência — sistema de gestão estratégica (nome provisório)
+# Cadência — sistema de gestão estratégica
 
-> Nome provisório; ver "Nome do produto" abaixo.
+**Nome escolhido em 25/11/2026.** Falta conferir disponibilidade no INPI e nas lojas.
 
 Sistema para **gerenciar pessoas, equipe, projetos pessoais e projetos de outras pessoas** com rotinas de gestão (metas e semanas, mapa do tempo, matriz de pessoas, feedbacks, reuniões, estratégia), em **app** e em **fichas impressas e em PDF**.
 
-**Status:** análise de produto concluída (25/11/2026), código ainda não iniciado. **Uso interno da VSA.** O método que inspira o produto é de terceiros; a questão de direitos precisa de revisão jurídica antes de qualquer oferta comercial (ver `docs/01-ANALISE-DE-PRODUTO.md`, risco R1).
+**Status:** análise de produto concluída (25/11/2026), código ainda não iniciado. **Uso exclusivamente pessoal** do responsável, em **web e APK Android**. O método que inspira o produto é de terceiros: para uso pessoal o risco é baixo, mas **qualquer compartilhamento ou venda exige revisão jurídica** (ver `docs/01-ANALISE-DE-PRODUTO.md`, risco R1). Repositório **privado**.
 
 ## Documentos
 | Arquivo | Conteúdo |
@@ -18,7 +18,7 @@ Sistema para **gerenciar pessoas, equipe, projetos pessoais e projetos de outras
 | `docs/07-MAPA-DE-NOMES-E-FONTES.md` | nomes próprios do produto, ideias de terceiros, o que não pode virar regra, fichas de origem |
 | `docs/08-FICHAS-IMPRIMIVEIS.md` | as 20 fichas em branco e preenchidas, padrões de impressão e fluxo de entrega |
 
-## Nome do produto (decisão do responsável)
+## Nome do produto (decidido: Cadência)
 Critérios: curto, em português, sem marca de terceiros (evitar "BHP", "Febracis", "Bússola"), que lembre ritmo e rotina de gestão.
 
 | Opção | Ideia | Observação |

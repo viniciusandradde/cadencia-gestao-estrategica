@@ -14,18 +14,19 @@
 | Camada | Escolha | Motivo |
 |---|---|---|
 | Linguagem | TypeScript | um só idioma no servidor e no cliente |
-| Aplicação web | Next.js (App Router) como PWA | mobile e desktop com uma base; instalável no celular |
+| Cliente (web e APK) | React + TypeScript com Vite, empacotado com **Capacitor** para Android | uma base de código gera o site e o APK, com **notificações locais nativas** |
+| API | Hono (TypeScript) sobre PostgreSQL | API simples e tipada, atende web e APK |
 | Banco | PostgreSQL | relacional, JSON onde precisa, **Row Level Security** |
 | Acesso a dados | Drizzle ORM ou Prisma | migrações versionadas, tipos |
 | Autenticação | Better Auth ou Auth.js, com e-mail, link mágico e 2FA | convites por papel |
 | PDF das fichas | modelos HTML/CSS de impressão renderizados por navegador sem tela (Playwright) | o mesmo layout vale para tela, impressão e PDF |
 | Arquivos | armazenamento de objetos compatível com S3 (Cloudflare R2 ou MinIO) | anexos e PDFs, links assinados com expiração |
 | Tarefas e lembretes | fila simples (pg-boss sobre o próprio PostgreSQL) | evita outro serviço |
-| Notificações | e-mail e web push (PWA) | ver limite abaixo |
+| Notificações | notificações locais do Android (Capacitor) e e-mail | alarme de 15 min confiável no APK |
 | Observabilidade | logs estruturados e alerta de erros | operação mínima |
 | Hospedagem | VPS com Docker Compose | já é domínio da VSA (curso de servidor e containers) |
 
-**Limite conhecido:** alarme a cada 15 minutos por web push no celular pode falhar com o aparelho bloqueado ou no iPhone sem o app instalado. Alternativa para o MVP: o usuário usa um **alarme repetido do próprio celular**, e o app serve para **anotar** em segundos (botão e widget); notificação nativa fica para depois.
+**Plataformas (decisão de 25/11/2026):** web e **APK Android**. Como o uso é pessoal, o APK é **instalado direto** (sem loja), assinado com chave própria. O APK resolve o limite do alarme de 15 minutos: as **notificações locais nativas** do Android (com permissão de alarme exato) funcionam com o aparelho bloqueado. No iPhone não há APK; o site instalado como PWA seria a alternativa, com a limitação de notificações. **Offline:** o celular guarda uma fila local e sincroniza ao voltar a internet (um único usuário, sem conflitos complexos).
 
 ## 3. Segurança e privacidade (desde o dia 1)
 - Dados de pessoas **criptografados em repouso** e em trânsito; segredos fora do repositório.
@@ -40,7 +41,9 @@
 ```
 /            README, LICENSE (a definir), CONTRIBUTING
 docs/        análise, perfis, módulos, dados, arquitetura, backlog, nomes e fontes, fichas
-apps/web/    aplicação Next.js
+apps/web/    cliente React (site e base do APK)
+apps/api/    API
+apps/android/ projeto Capacitor e assinatura do APK
 packages/    modelos de ficha (HTML/CSS), esquema do banco, utilitários
 infra/       Docker Compose, scripts de implantação e backup
 ```
@@ -49,9 +52,11 @@ infra/       Docker Compose, scripts de implantação e backup
 | # | Decisão | Opções | Recomendação |
 |---|---|---|---|
 | ADR-1 | Nome do produto e do repositório | ver `README.md` | Cadência |
-| ADR-2 | Stack | TypeScript/Next.js ou outra | a da seção 2 |
-| ADR-3 | Notificação de 15 min | web push, alarme do celular, app nativo | alarme do celular no MVP |
+| ADR-2 | Stack | TypeScript com React/Vite + Capacitor e API Hono; ou Flutter/React Native | a da seção 2 |
+| ADR-3 | Notificação de 15 min | notificação local do Android | **resolvida**: notificação local nativa via APK |
 | ADR-4 | Hospedagem | VPS própria ou nuvem gerenciada | VPS com Docker, backup externo |
 | ADR-5 | Dados de pessoas: base legal e política de transparência | a definir com advogado | política "parcial" por padrão |
-| ADR-6 | Licença do código | proprietária ou aberta | proprietária até o jurídico concluir a questão do método |
+| ADR-6 | Licença do código | proprietária ou aberta | **proprietária, repositório privado** (uso pessoal) |
 | ADR-7 | Reconhecimento de fichas escaneadas (OCR) | manual, OCR | manual no MVP; OCR depois |
+| ADR-8 | Offline e sincronização | só online; fila local com sincronização | fila local com sincronização simples (um usuário) |
+| ADR-9 | Distribuição do APK | loja, ou instalação direta | instalação direta, assinado com chave própria guardada fora do Git |

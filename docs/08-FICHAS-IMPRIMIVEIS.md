@@ -61,3 +61,6 @@ Os nomes abaixo são os nomes **do produto**; o mapa para os nomes do curso est�
 
 ## 6. Como gerar (proposta técnica; ver `05-ARQUITETURA-E-STACK.md`)
 Cada ficha é um **modelo HTML/CSS de impressão** (uma folha de estilo `@media print`), renderizado para PDF por um navegador sem tela. Assim o mesmo modelo serve para visualizar na tela, imprimir direto do navegador e baixar o PDF. Modelo em branco e preenchido compartilham o mesmo layout; muda só o preenchimento dos campos.
+
+## 7. No APK
+O celular baixa o PDF da API e usa o **compartilhamento e a impressão do Android** (enviar por e-mail ou mensageiro, salvar, ou imprimir em impressora configurada). A foto da ficha em papel assinada é tirada pela câmera do próprio app e anexada ao registro.

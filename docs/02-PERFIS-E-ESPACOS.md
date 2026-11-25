@@ -2,6 +2,8 @@
 
 **Status:** IN_REVIEW · O pedido do responsável fala em **perfis** para gerenciar pessoas, equipe, projetos pessoais e projetos de outras pessoas. Aqui isso vira dois conceitos: **espaço** (onde as coisas vivem) e **papel** (o que cada pessoa pode fazer ali).
 
+**Uso pessoal (decisão de 25/11/2026):** no MVP existe **um único usuário** (o responsável). As pessoas gerenciadas e as pessoas acompanhadas são **cadastros**, sem login: ele registra por elas e entrega as fichas em PDF e impressas. Os papéis de líder, membro, mentorado e consultor, o convite e a política de transparência abaixo ficam **desenhados para uma evolução futura** e não entram no MVP. O isolamento por espaço continua, para não misturar equipe, projetos pessoais e projetos de terceiros.
+
 ## 1. Espaços
 Um espaço é um cofre isolado: dados de um espaço não aparecem em outro.
 

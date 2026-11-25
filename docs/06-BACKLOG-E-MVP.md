@@ -9,18 +9,21 @@
 - E0.4 Autenticação, convites e papéis; 2FA do gestor.
 - E0.5 Isolamento por espaço com **RLS** e testes de permissão (matriz de `02`).
 - E0.6 Log de auditoria.
+- E0.7 **Pipeline do APK:** projeto Capacitor, compilação do APK, assinatura com chave própria (guardada fora do Git), instalação direta; teste em um aparelho real.
 
 ## Fase 1 · MVP (uso próprio)
-Objetivo: o gestor gerencia **a si, as pessoas e a equipe** no básico e **imprime as fichas centrais**.
-- E1.1 **Espaços e perfis:** criar espaço pessoal, de equipe e de terceiro; cadastrar pessoas; política de transparência.
+Objetivo: o gestor (único usuário) gerencia **a si, as pessoas e a equipe** no básico, em **web e APK**, e **imprime as fichas centrais**.
+- E1.1 **Espaços e cadastros:** criar espaço pessoal, de equipe e de terceiro; cadastrar pessoas (sem login); política de transparência fica desenhada para o futuro.
 - E1.2 **Metas e Semanas (M1):** objetivos, ações, semana, transporte, meta do mês.
 - E1.3 **Mapa do tempo (M2):** notas rápidas em blocos de 15 min, classificação, somatório, valor da hora.
 - E1.4 **Pessoas (M3 parcial):** perfil, quatro dimensões, matriz de pessoas mensal, feedbacks com compromisso.
 - E1.5 **Painel do gestor:** quem está sem feedback, quadrantes da matriz, metas da semana.
 - E1.6 **Fichas imprimíveis (M12) MVP:** F01 caderno de metas, F03 mapa do tempo, F06 quatro dimensões, F07 matriz de pessoas, F09 feedback — em branco e preenchidas, com código e QR.
 - E1.7 **Anexar ficha escaneada** a um registro.
+- E1.8 **Lembretes nativos no APK:** alarme de 15 minutos para o mapa do tempo e lembretes de feedback e de semana, com permissão de alarme exato e teste com o aparelho bloqueado.
+- E1.9 **Offline:** fila local no celular e sincronização com a API.
 
-Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa do tempo, três feedbacks, uma matriz mensal) e imprime as cinco fichas.
+Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa do tempo, três feedbacks, uma matriz mensal) **no celular (APK) e no site**, e imprime as cinco fichas.
 
 ## Fase 2 · Gestão de equipe e rotina
 - E2.1 Reuniões (M4): ritualística e deliberativa, pauta, ata, decisões, **5W2H**, delegação (F12, F13, F14).
@@ -66,8 +69,11 @@ Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa d
 18. Feedback com compromisso e assinatura.
 19. Painel do gestor.
 20. Gerar PDF das fichas F01, F03, F06, F07, F09 (branco e preenchida) com QR.
+21. Projeto Capacitor e APK assinado, instalado em um aparelho real.
+22. Alarme de 15 minutos com notificação local nativa.
+23. Fila offline e sincronização com a API.
 
 ## Dependências e riscos do plano
-- **Jurídico** (método de terceiros, LGPD, trabalhista) deve opinar **antes** da Fase 2 (orientação corretiva) e antes de qualquer oferta comercial.
+- **Jurídico:** LGPD e trabalhista, antes da Fase 2 (orientação corretiva). Sobre o método de terceiros, só é obrigatório **se o sistema sair do uso pessoal**.
 - Conferir os formulários originais antes de fixar campos (tabelas do ebook vieram vazias).
 - Decidir o **nome do produto** antes de criar o repositório e a identidade visual.

@@ -3,6 +3,8 @@
 **Status:** IN_REVIEW · **Data:** 25/11/2026 · **Fonte do método:** treinamento Business High Performance (BHP), de Paulo Vieira / Febracis, registrado em 11 fichas internas (≈41,5 mil palavras) feitas com palavras próprias. Este documento só usa o que está nas fichas.
 
 ## 1. O que queremos construir
+**Decisão de 25/11/2026:** o sistema é de **uso exclusivamente pessoal** do responsável e será entregue em **web e APK Android**. Isso reduz o escopo (um único usuário no MVP) e o risco de direitos (seção 6), mas não elimina o cuidado com dados de pessoas.
+
 Um **sistema de gestão estratégica** que transforma o método do BHP em rotinas, registros e painéis usáveis no dia a dia. Quatro usos, escolhidos pelo responsável:
 1. **Gerenciar pessoas** (cada pessoa tem um perfil com avaliações, feedbacks e evolução).
 2. **Gerenciar a equipe** (visão do time, rituais, metas, clima).
@@ -69,8 +71,8 @@ Cada linha é uma ferramenta citada nas fichas. "Fonte" aponta a ficha (D = dia,
 ## 6. Riscos e restrições
 | # | Risco | Tratamento |
 |---|---|---|
-| R1 | **Direitos e marca.** O método e os nomes são de terceiros (Febracis/Paulo Vieira). Produto comercial pode precisar de licença ou de reescrita que não copie o método como tal. | Revisão jurídica antes de qualquer lançamento comercial; usar nomes e textos próprios; uso interno liberado. |
-| R2 | **Dados de pessoas (LGPD).** Avaliações, feedbacks e advertências são dados pessoais; saúde emocional e perfil comportamental podem ser sensíveis. | Base legal definida, minimização, controle de acesso por espaço e papel, criptografia, retenção, direito de acesso do titular. |
+| R1 | **Direitos e marca.** O método e os nomes são de terceiros (Febracis/Paulo Vieira). Para **uso pessoal**, o risco é baixo; se o sistema um dia for compartilhado, distribuído ou vendido, precisa de licença ou reescrita autoral. | Manter nomes e textos próprios desde já (ver `07`); revisão jurídica **antes** de qualquer compartilhamento ou oferta comercial. |
+| R2 | **Dados de pessoas (LGPD).** Avaliações, feedbacks e advertências sobre membros de equipe são dados pessoais; saúde emocional e perfil comportamental podem ser sensíveis. O uso ser pessoal **não garante** isenção quando há relação profissional com as pessoas registradas; confirmar com advogado. | Base legal definida, minimização, controle de acesso por espaço e papel, criptografia, retenção, direito de acesso do titular. |
 | R3 | **Trabalhista.** Advertência, suspensão e demissão têm regras legais. O próprio instrutor recomenda validar modelos com advogado e diz que parte da orientação depende da legislação local. | Modelos de documento marcados "validar com advogado"; sistema não emite ato disciplinar sozinho. |
 | R4 | **Decisão automatizada.** Matriz de Decisão e "lista dos demitíveis" podem virar decisão automática injusta. | Só apoio à decisão; justificativa obrigatória; revisão humana; sem ranking público de pessoas. |
 | R5 | **Qualidade do método.** Vários números do curso não têm fonte (ex.: ganhos de produtividade, percentuais de pesquisa). | Não usar como regra do sistema; configurações editáveis (por exemplo, o limite de 3:1). |
