@@ -17,6 +17,7 @@ Sistema para **gerenciar pessoas, equipe, projetos pessoais e projetos de outras
 | `docs/06-BACKLOG-E-MVP.md` | fases, épicos e as 20 primeiras issues |
 | `docs/07-MAPA-DE-NOMES-E-FONTES.md` | nomes próprios do produto, ideias de terceiros, o que não pode virar regra, fichas de origem |
 | `docs/08-FICHAS-IMPRIMIVEIS.md` | as 20 fichas em branco e preenchidas, padrões de impressão e fluxo de entrega |
+| `referencias/` | **material de origem completo** (privado, uso pessoal): 11 fichas de metodologia do BHP, texto e PDFs da apostila e do ebook, transcrições do BHP e da Bússola Executiva, materiais da Bússola; ver `referencias/README.md` |
 
 ## Nome do produto (decidido: Cadência)
 Critérios: curto, em português, sem marca de terceiros (evitar "BHP", "Febracis", "Bússola"), que lembre ritmo e rotina de gestão.

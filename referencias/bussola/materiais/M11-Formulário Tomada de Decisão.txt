@@ -1,0 +1,16 @@
+# Fonte: MOD. 11 - Como avaliar uma Proposta de Emprego dentro ou fora da empresa/Materiais MOD. 11/Formulário Tomada de Decisão.xlsx
+
+## Planilha1
+Tomada de decisão |  |  |  | 
+Manter na posição Atual |  |  |  | 
+Prós | Por que | Por que | Por que | Grau de importância (baixo, médio ou alto)
+Resuma aqui o melhor cenário dessa decisão |  |  |  | 
+Contra | Por que | Por que | Por que | Grau de importância (baixo, médio ou alto)
+Resuma aqui o pior cenário dessa decisão |  |  |  | 
+Trocar de posição ou Empresa |  |  |  | 
+Prós | Por que | Por que | Por que | Grau de importância (baixo, médio ou alto)
+Resuma aqui o melhor cenário dessa decisão |  |  |  | 
+Contra | Por que | Por que | Por que | Grau de importância (baixo, médio ou alto)
+Resuma aqui o pior cenário dessa decisão |  |  |  | 
+Com base nas 4 análise feitas acima |  |  |  | 
+Decisão |  |  | Ações/Próximos passos | 
