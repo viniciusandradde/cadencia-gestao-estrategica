@@ -13,7 +13,9 @@
 | `bussola/fichas/` | 8 fichas de metodologia da Bússola (módulos 01 a 11 e happy hour), em palavras próprias, com minutagem e itens `[incerto]` | segunda fonte para carreira, inteligência emocional corporativa (SCARF), Rota GSC e **liderança de equipe (módulo 09, LEA)** |
 | `bussola/transcricoes/` | 61 aulas em 12 arquivos por módulo (~19,9 h) | segunda fonte para carreira, inteligência emocional e liderança |
 | `bussola/materiais/` | 28 materiais em texto (Rota GSC, Janela de Johari, gestão de energia, formulário de decisão, entre outros) | ferramentas de autoconhecimento e liderança |
-| `maestria-emocional/` | transcrições do **Maestria Emocional Homens** (115 aulas) e **Mulheres** (110 aulas) e das **Técnicas Avançadas de Educação de Filhos** (53 aulas), da Jornada EVO, para a junção das três versões | a mesclar; ver `maestria-emocional/README.md` |
+| `maestria-emocional/fichas/` | 16 fichas de metodologia: 12 por módulo, com a junção homens + mulheres, e 4 da Educação de Filhos, em palavras próprias, com versão, aula e minuto | terceira fonte: autogestão emocional, medo e prudência, foco, hábito, painel de visão, transição de fase, aptidão; família |
+| `maestria-emocional/sintese-maestria.md` | síntese temática (temas A a I), junção das três versões e candidatos para o Método Cadência | base da incorporação em `docs/09` |
+| `maestria-emocional/` | transcrições do **Maestria Emocional Homens** (115 aulas) e **Mulheres** (110 aulas) e das **Técnicas Avançadas de Educação de Filhos** (53 aulas), da Jornada EVO | profundidade e exemplos; ver `maestria-emocional/README.md` |
 | `*/manifesto-aulas.csv` | lista de aulas com duração | índice |
 
 ## Como usar

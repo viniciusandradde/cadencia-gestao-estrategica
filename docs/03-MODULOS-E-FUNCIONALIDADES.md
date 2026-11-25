@@ -73,3 +73,14 @@ Ver `09-METODOLOGIA-MESCLADA.md`. Entram nos módulos existentes:
 - **M4 Reuniões:** rituais de cadência fixa (time semanal, individual tático e estratégico, 30 min com o líder), primeira reunião do time, divisão de temas.
 - **M7 Clima:** SCARF (mapa de gatilhos, protocolo de controle, diário de consciência), instrumento de clima a definir.
 - **M10 Projetos:** formulário de decisão e critérios de proposta; alinhamento 360 para projetos de terceiros.
+
+## Atualização pelo Maestria Emocional (25/11/2026)
+Ver `09-METODOLOGIA-MESCLADA.md` (seções 3.1, 4 e 6) e a síntese em `referencias/maestria-emocional/sintese-maestria.md`. Entram nos módulos existentes:
+- **M1 Metas:** Painel de Visão (privado, sem prazo) na Rota de Rumo; Objetivo-Chave; sonhar e planejar em dois tempos; Oito Filtros de Atenção; Plano de Mudança de Hábito; Rito de Fase; Trilha de Exploração de Carreira; resultado x expectativa e três perguntas na Avaliação Semanal; fechamento do dia no Registro de Insights.
+- **M2 Produtividade:** check-in de leveza no Mapa do Tempo.
+- **M3 Pessoas** (por adaptação): Reconhecimento Verdadeiro, Escada de Correção, Pergunta da Justificativa, Triagem "É Meu?", Seleção por Intenção, Acordo de Reconstrução de Confiança; campos opcionais de **estilo e reconhecimento** no perfil.
+- **M4 Reuniões:** Aviso de Transição; Queixa Vira Pedido na pauta; Delegação por Reversibilidade.
+- **M7 Clima:** Registro de Desvios de Foco (modo de 7 dias do diário de consciência), Mapa de Fontes de Pressão, Retrospectiva de Evento Difícil, Duas Perguntas para Rótulos.
+- **M10 Projetos:** Registro de Riscos com Prudência, Ponte de Transição, Registro de Decisão Ampliado.
+- **Família (novo, opcional, fora do MVP):** espaço pessoal e privado com Acordo Meu, Nosso, Seu, Rotinas de Família e Reparação Pessoal (opcional, com aviso "não é terapia"). Nunca se mistura com dados de equipe (R7 em `01`).
+- **Regra transversal:** o campo **ação** de toda ferramenta passa pelo Filtro da Ação (simples, depende de quem assume, sem culpados, sem exigir que o outro mude).

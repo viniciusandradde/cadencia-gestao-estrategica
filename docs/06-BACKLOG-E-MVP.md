@@ -81,3 +81,10 @@ Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa d
 
 ## Ajustes pela metodologia mesclada (25/11/2026)
 Ver `09-METODOLOGIA-MESCLADA.md`. Fase 2: dois tipos de feedback, maturidade N1–N4 por atividade, rituais recorrentes e primeira reunião. Fase 3: SCARF, instrumento de clima, formulário de decisão e alinhamento 360 de projetos. Os parâmetros (limite de ações por semana, frequência de feedback, razão de positividade) ficam em Configurações.
+
+## Ajustes pelo Maestria Emocional e pela primeira versão no GitHub Pages (25/11/2026)
+- **Primeira versão publicada:** PWA local primeiro no GitHub Pages (`05`, seção 2.1), com o núcleo de gerir a si: Caderno de Metas, Teste de Realidade, Avaliação Semanal, Registro de Insights e backup em JSON. Sai antes da Fase 0 completa, porque não depende de servidor nem de dados de terceiros.
+- **Versão seguinte do app (gerir a si):** Painel de Visão, Objetivo-Chave, Oito Filtros de Atenção, Registro de Riscos com Prudência, resultado x expectativa e três perguntas na Avaliação Semanal, fechamento do dia.
+- **Fase 2:** Reconhecimento Verdadeiro, Escada de Correção, Aviso de Transição, Delegação por Reversibilidade, campos de estilo e reconhecimento no perfil.
+- **Fase 3:** Registro de Desvios de Foco, Mapa de Fontes de Pressão, Ponte de Transição, Trilha de Exploração de Carreira, Seleção por Intenção.
+- **Depois do MVP e só com privacidade reforçada (R7 em `01`):** espaço Família e Reparação Pessoal.
