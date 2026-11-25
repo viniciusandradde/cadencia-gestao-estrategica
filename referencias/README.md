@@ -10,6 +10,7 @@
 | `bhp/materiais/` | texto extraído da apostila (172 p.), do ebook (240 p.), da agenda e das duas ferramentas de uma página | campos e estrutura dos formulários |
 | `bhp/originais-pdf/` | os 5 PDFs originais (a apostila traz os formulários; as ferramentas "Aplicativo Gerencial" e "Relação de Ideias" têm uma página cada) | conferir o desenho dos formulários; **não usar a arte original nas fichas do produto** |
 | `bhp/transcricoes/` | transcrição dos 4 dias (47,6 h) | profundidade e exemplos; transcrição automática, com erros possíveis |
+| `bussola/fichas/` | 8 fichas de metodologia da Bússola (módulos 01 a 11 e happy hour), em palavras próprias, com minutagem e itens `[incerto]` | segunda fonte para carreira, inteligência emocional corporativa (SCARF), Rota GSC e **liderança de equipe (módulo 09, LEA)** |
 | `bussola/transcricoes/` | 61 aulas em 12 arquivos por módulo (~19,9 h) | segunda fonte para carreira, inteligência emocional e liderança |
 | `bussola/materiais/` | 28 materiais em texto (Rota GSC, Janela de Johari, gestão de energia, formulário de decisão, entre outros) | ferramentas de autoconhecimento e liderança |
 | `*/manifesto-aulas.csv` | lista de aulas com duração | índice |
