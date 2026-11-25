@@ -1,6 +1,6 @@
 # Referências do método (material de terceiros, uso pessoal)
 
-> **Aviso.** Esta pasta guarda o material de origem do método que inspira a Cadência: treinamentos de terceiros (Business High Performance, de Paulo Vieira / Febracis, e o programa Bússola Executiva). É **material de curso pago**, mantido aqui **só para uso pessoal do responsável, em repositório privado**. **Não publicar, não compartilhar e não tornar o repositório público.** Qualquer uso comercial ou compartilhamento exige revisão jurídica (ver `../docs/01-ANALISE-DE-PRODUTO.md`, risco R1). O produto usa nomes e textos próprios (`../docs/07-MAPA-DE-NOMES-E-FONTES.md`).
+> **Aviso.** Esta pasta guarda o material de origem do método que inspira a Cadência: treinamentos de terceiros (Business High Performance, de Paulo Vieira / Febracis, o programa Bússola Executiva e os cursos Maestria Emocional e Educação de Filhos, de Márcio Micheli / Jornada EVO). É **material de curso pago**, mantido aqui **só para uso pessoal do responsável, em repositório privado**. **Não publicar, não compartilhar e não tornar o repositório público.** Qualquer uso comercial ou compartilhamento exige revisão jurídica (ver `../docs/01-ANALISE-DE-PRODUTO.md`, risco R1). O produto usa nomes e textos próprios (`../docs/07-MAPA-DE-NOMES-E-FONTES.md`).
 
 ## O que há aqui
 | Pasta | Conteúdo | Uso no desenvolvimento |
@@ -13,7 +13,7 @@
 | `bussola/fichas/` | 8 fichas de metodologia da Bússola (módulos 01 a 11 e happy hour), em palavras próprias, com minutagem e itens `[incerto]` | segunda fonte para carreira, inteligência emocional corporativa (SCARF), Rota GSC e **liderança de equipe (módulo 09, LEA)** |
 | `bussola/transcricoes/` | 61 aulas em 12 arquivos por módulo (~19,9 h) | segunda fonte para carreira, inteligência emocional e liderança |
 | `bussola/materiais/` | 28 materiais em texto (Rota GSC, Janela de Johari, gestão de energia, formulário de decisão, entre outros) | ferramentas de autoconhecimento e liderança |
-| `maestria-emocional/` | transcrições do **Maestria Emocional Homens** (115 aulas) e **Mulheres** (110 aulas), da Jornada EVO, para a junção das duas versões | a mesclar; ver `maestria-emocional/README.md` |
+| `maestria-emocional/` | transcrições do **Maestria Emocional Homens** (115 aulas) e **Mulheres** (110 aulas) e das **Técnicas Avançadas de Educação de Filhos** (53 aulas), da Jornada EVO, para a junção das três versões | a mesclar; ver `maestria-emocional/README.md` |
 | `*/manifesto-aulas.csv` | lista de aulas com duração | índice |
 
 ## Como usar
