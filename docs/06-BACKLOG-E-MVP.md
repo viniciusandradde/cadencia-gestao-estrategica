@@ -22,6 +22,7 @@ Objetivo: o gestor (único usuário) gerencia **a si, as pessoas e a equipe** no
 - E1.7 **Anexar ficha escaneada** a um registro.
 - E1.8 **Lembretes nativos no APK:** alarme de 15 minutos para o mapa do tempo e lembretes de feedback e de semana, com permissão de alarme exato e teste com o aparelho bloqueado.
 - E1.9 **Offline:** fila local no celular e sincronização com a API.
+- E1.10 **Avaliação Semanal de 15 min** (sexta), Gestão de Energia e Registro de Insights, com ficha impressa (F22, F23, F24).
 
 Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa do tempo, três feedbacks, uma matriz mensal) **no celular (APK) e no site**, e imprime as cinco fichas.
 
@@ -77,3 +78,6 @@ Critério de pronto do MVP: o gestor roda uma **semana completa** (metas, mapa d
 - **Jurídico:** LGPD e trabalhista, antes da Fase 2 (orientação corretiva). Sobre o método de terceiros, só é obrigatório **se o sistema sair do uso pessoal**.
 - Conferir os formulários originais antes de fixar campos (tabelas do ebook vieram vazias).
 - Decidir o **nome do produto** antes de criar o repositório e a identidade visual.
+
+## Ajustes pela metodologia mesclada (25/11/2026)
+Ver `09-METODOLOGIA-MESCLADA.md`. Fase 2: dois tipos de feedback, maturidade N1–N4 por atividade, rituais recorrentes e primeira reunião. Fase 3: SCARF, instrumento de clima, formulário de decisão e alinhamento 360 de projetos. Os parâmetros (limite de ações por semana, frequência de feedback, razão de positividade) ficam em Configurações.

@@ -65,3 +65,11 @@ Cockpit descrito em `02-PERFIS-E-ESPACOS.md`, seção 5. Alertas, linha do tempo
 
 ## M12 · Fichas imprimíveis (transversal)
 Gera PDF em branco ou preenchido de qualquer ficha (F01 a F20), registra entrega e assinatura, anexa cópia escaneada. Detalhe em `08-FICHAS-IMPRIMIVEIS.md`.
+
+## Atualização pela metodologia mesclada (25/11/2026)
+Ver `09-METODOLOGIA-MESCLADA.md`. Entram nos módulos existentes:
+- **M1 Metas:** funil objetivo → ano → mês → semana, Rota de Rumo (escada de degraus), Gestão de Energia, Avaliação Semanal de 15 min, Meu Impacto no Negócio.
+- **M3 Pessoas:** maturidade N1–N4 por atividade, **dois tipos de feedback** (orientação imediata e sessão formal), conversa de desligamento sem surpresa, contratação por comportamento.
+- **M4 Reuniões:** rituais de cadência fixa (time semanal, individual tático e estratégico, 30 min com o líder), primeira reunião do time, divisão de temas.
+- **M7 Clima:** SCARF (mapa de gatilhos, protocolo de controle, diário de consciência), instrumento de clima a definir.
+- **M10 Projetos:** formulário de decisão e critérios de proposta; alinhamento 360 para projetos de terceiros.

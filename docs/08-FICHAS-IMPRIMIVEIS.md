@@ -64,3 +64,6 @@ Cada ficha é um **modelo HTML/CSS de impressão** (uma folha de estilo `@media 
 
 ## 7. No APK
 O celular baixa o PDF da API e usa o **compartilhamento e a impressão do Android** (enviar por e-mail ou mensageiro, salvar, ou imprimir em impressora configurada). A foto da ficha em papel assinada é tirada pela câmera do próprio app e anexada ao registro.
+
+## 8. Fichas novas pela metodologia mesclada (F21 a F34)
+O catálogo cresce com as ferramentas da Bússola e de feedback (detalhe e origem em `09-METODOLOGIA-MESCLADA.md`, seção 6): F21 Rota de Rumo (escada), F22 Gestão de Energia, F23 Avaliação Semanal, F24 Registro de Insights, F25 Meu Impacto no Negócio, F26 Autoconhecimento e Minha Imagem, F27 Pedido de feedback à liderança, F28 Maturidade por atividade, F29 Sessão de Feedback Formal, F30 Conversa de Desligamento, F31 Primeira Reunião e Primeira Conversa, F32 SCARF e diário de consciência, F33 Formulário de Decisão, F34 Avaliação 360. As de uso mais frequente (F23, F22, F24) entram na Fase 1 junto com F01, F03, F06, F07 e F09.
