@@ -1,0 +1,48 @@
+# Confere testes e build do app em pushes para outras branches (sem publicar nada).
+# Assim o build é checado antes do merge na main, que é onde o deploy acontece.
+name: Verificar build (sem publicar)
+
+on:
+  push:
+    branches-ignore: [main]
+    paths:
+      - 'apps/web/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verificar-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: '22'
+
+jobs:
+  verificar:
+    name: Testar e gerar o build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v7
+
+      - name: Preparar o Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Rodar os testes
+        run: npm test
+
+      - name: Gerar o build
+        run: npm run build

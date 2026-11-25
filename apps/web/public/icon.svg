@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Cadência</title>
+  <rect width="512" height="512" rx="112" fill="#1f4e5f"/>
+  <g fill="#ffffff">
+    <rect x="140" y="284" width="64" height="92" rx="32"/>
+    <rect x="224" y="214" width="64" height="162" rx="32"/>
+    <rect x="308" y="136" width="64" height="240" rx="32"/>
+  </g>
+</svg>
