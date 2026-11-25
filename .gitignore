@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+# PDFs gerados e anexos escaneados nunca entram no Git (dados de pessoas)
+storage/
+exports/
