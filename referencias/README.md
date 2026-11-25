@@ -13,6 +13,7 @@
 | `bussola/fichas/` | 8 fichas de metodologia da Bússola (módulos 01 a 11 e happy hour), em palavras próprias, com minutagem e itens `[incerto]` | segunda fonte para carreira, inteligência emocional corporativa (SCARF), Rota GSC e **liderança de equipe (módulo 09, LEA)** |
 | `bussola/transcricoes/` | 61 aulas em 12 arquivos por módulo (~19,9 h) | segunda fonte para carreira, inteligência emocional e liderança |
 | `bussola/materiais/` | 28 materiais em texto (Rota GSC, Janela de Johari, gestão de energia, formulário de decisão, entre outros) | ferramentas de autoconhecimento e liderança |
+| `maestria-emocional/` | transcrições do **Maestria Emocional Homens** (115 aulas) e **Mulheres** (110 aulas), da Jornada EVO, para a junção das duas versões | a mesclar; ver `maestria-emocional/README.md` |
 | `*/manifesto-aulas.csv` | lista de aulas com duração | índice |
 
 ## Como usar
